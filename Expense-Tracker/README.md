@@ -34,7 +34,12 @@ A simple and elegant Expense Tracker built with **React** and **styled-component
 
 ## 🖼️ Screenshots
 
-> *(Add screenshots here if availabl)* (Expense-Tracker\src\assets\Sc1.png)
+> *(Starting)* (./assets/Sc1.png)
+> *(Expense and Income Form)* (./assets/Sc2.png)
+> *(Adding an Expense)* (./assets/Sc3.png)
+> *(OverView of Expense,income,Balance and Transaction History)* (./assets/Sc4.png)
+
+
 
 
 ---
