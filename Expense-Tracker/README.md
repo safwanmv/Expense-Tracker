@@ -1,12 +1,119 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💸 Expense Tracker App
 
-Currently, two official plugins are available:
+A simple and elegant Expense Tracker built with **React** and **styled-components**. It allows users to **add**, **search**, and **delete** income/expense transactions — and it **automatically saves your data to localStorage**, so your data stays even after refreshing the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Coming soon – add a link if deployed!
+
+---
+
+## 🚀 Features
+
+- ✅ Add Income or Expense
+- ✅ See Real-Time Balance, Income & Expense
+- ✅ Search Transactions by Description
+- ✅ Delete Transactions
+- ✅ Data Persistence with `localStorage`
+- ✅ Mobile-friendly UI
+- ✅ Built with React + Styled-Components
+
+---
+
+## 🛠️ Technologies Used
+
+- ⚛️ React
+- 💅 styled-components
+- 🧠 React Hooks (`useState`, `useEffect`)
+- 🗂️ localStorage API (for data persistence)
+
+---
+
+## 🖼️ Screenshots
+
+> *(Add screenshots here if availabl)* (Expense-Tracker\src\assets\Sc1.png)
+
+
+---
+
+## 🧾 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/safwanmv/expense-tracker-react.git
+cd expense-tracker-react
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the App
+
+```bash
+npm start
+```
+
+The app will run on [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🧠 Project Structure
+
+```plaintext
+src/
+├── components/
+│   ├── HomeComponent.jsx
+│   ├── OverViewComponent.jsx
+│   └── TransactionComponent.jsx
+├── App.js
+└── index.js
+```
+
+---
+
+## 📂 How LocalStorage Works Here
+
+* On app load: Transactions are loaded from `localStorage`.
+* On add/delete: The transaction list is saved again to `localStorage`.
+* The data format looks like this:
+
+```json
+[
+  {
+    "desc": "Tea",
+    "amount": 20,
+    "type": "EXPENSE"
+  },
+  {
+    "desc": "Salary",
+    "amount": 5000,
+    "type": "INCOME"
+  }
+]
+```
+
+---
+
+## ✨ Future Improvements
+
+* 💾 Export transactions to CSV
+* 📈 Graph for expense/income trends
+* 🔒 Authentication support
+* ☁️ Cloud database instead of localStorage
+
+---
+
+## 🙌 Acknowledgements
+
+Built as part of a React learning journey and inspired by real-world finance tracking needs.
+
+---
