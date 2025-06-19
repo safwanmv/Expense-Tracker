@@ -36,16 +36,16 @@ A simple and elegant Expense Tracker built with **React** and **styled-component
 ## 📸 Screenshots
 
 ### 🏠 Starting
-![Starting](.Expense-Tracker/src/assets/Sc1.png) 
+![Starting](./src/assets/Sc1.png) 
 
 ### 🧾 Expense and Income Form
 ![Form](./src/assets/Sc2.png)
 
 ### ➕ Adding an Expense
-![Adding Expense](.Expense-Tracker/src/assets/Sc3.png)
+![Adding Expense](./src/assets/Sc3.png)
 
 ### 📊 Overview: Expense, Income, Balance & History
-![Overview](.Expense-Tracker/src/assets/Sc4.png)
+![Overview](./src/assets/Sc4.png)
 
 
 
